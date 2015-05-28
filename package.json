@@ -1,0 +1,23 @@
+{
+  "name": "unnest-elements",
+  "version": "0.1.0",
+  "description": "Unnest elements, replacing the nested variety with an equivalent flat layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weo-edu/unnest-elements"
+  },
+  "keywords": [
+    "unnest",
+    "elements"
+  ],
+  "author": "ashaffer (http://github.com/ashaffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weo-edu/unnest-elements/issues"
+  },
+  "homepage": "https://github.com/weo-edu/unnest-elements"
+}
