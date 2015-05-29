@@ -14,6 +14,12 @@ describe('unnest-elements', function() {
     var unnested = unnest(container, container.childNodes[1])
     assert.equal(toHtml(unnested), '<div>Before</div><p>Middle</p><div>After</div>')
   })
+
+  it('should work with void elements', function() {
+    var container = create('Before<img>After')
+    var unnested = unnest(container, container.childNodes[1])
+    assert.equal(toHtml(unnested), '<div>Before</div><img><div>After</div>')
+  })
 })
 
 function create(html) {
