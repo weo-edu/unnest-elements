@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/weo-edu/unnest-elements/issues"
   },
-  "homepage": "https://github.com/weo-edu/unnest-elements"
+  "homepage": "https://github.com/weo-edu/unnest-elements",
+  "devDependencies": {
+    "zuul": "^3.0.0"
+  }
 }
